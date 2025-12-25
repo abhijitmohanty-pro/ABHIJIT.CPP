@@ -1,6 +1,7 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 int main(){
-    cout<<5;
+    vector<int>vec={1,2,3,4};
     return 0;
 }
