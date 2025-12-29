@@ -4,20 +4,21 @@
 #include <algorithm>
 #include <string>
 using namespace std;
-void print(string y){
-    vector<string>vec;
-    int n=y.length();
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            vec[i];
-            for(int k=j;j<n;j++){
-                cout<<
-            }
+void f(string str,int i,string final){
+    if(i==str.length()){
+        cout<<final<<final.length()<<endl;
+        return ;
     }
+    f(str,i+1,final+str[i]);
+    f(str,i+1,final);
 }
-}
+
 int main(){
-    string x="abc";
-    print(x);
+   string str;
+   cin>>str;
+   cout<<endl;
+   string final="";
+    f(str,0,final);
+    return 0;
 }
   
