@@ -2,6 +2,7 @@
 #include <vector>
 #include <set>
 #include <string>
+// sorting with o(n*n) time complexity)
 using namespace std;
 void sorting(vector<int>&list){
     int i=0;
